@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Box = () => {
+const Navbar = () => {
   return (
     <div style={{height:500, backgroundColor:"red"}}>Box</div>
   )
 }
 
-export default Box
+export default Navbar

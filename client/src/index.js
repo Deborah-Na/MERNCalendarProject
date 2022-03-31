@@ -3,14 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { ParallaxProvider } from 'react-scroll-parallax';
-// import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <BrowserRouter> */}
+    <BrowserRouter>
     <App />
-    {/* </BrowserRouter> */}
+    </BrowserRouter>
     
   </React.StrictMode>,
   document.getElementById('root')

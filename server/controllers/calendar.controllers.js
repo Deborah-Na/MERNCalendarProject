@@ -27,7 +27,7 @@ module.exports.updateEntry = (request, response)=> {
 }
 
 module.exports.deleteEntry = (request, response)=>{
-    Author.findByIdAndDelete(request.params.id)
+    Calendar.findByIdAndDelete(request.params.id)
     .then(deleteResult => response.json(deleteResult))
     .catch(err => response.status(400).json(err))
 }

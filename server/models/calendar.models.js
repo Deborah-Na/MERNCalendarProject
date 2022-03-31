@@ -7,14 +7,25 @@ const CalendarSchema = new mongoose.Schema({
     },
     content: {
         type: String,
+        require: [true, "Tell us how you felt today!"],
+        minlength: [2, "You dont have anything to write?"]
+    },
+    description: {
+        type: String,
         require: [true, "Tell us your day!"],
         minlength: [2, "You dont have anything to write?"]
     },
-    uploadPic: {
+    imageUrl: {
         type: String
     },
-    checkbox: {
-        type: Boolean
+    reminder: {
+        type: String,
+    },
+    // checkbox: {
+    //     type: Boolean
+    // },
+    mood: {
+        type: String
     },
 }, { timestamps: true });
 module.exports.Calendar = mongoose.model('Calendar', CalendarSchema);
