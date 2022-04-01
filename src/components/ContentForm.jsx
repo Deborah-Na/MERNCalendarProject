@@ -55,7 +55,7 @@ export const ContentForm = (props) => {
 
             {/* <button><Link className="text-primary" to={"/pirates"}>CrewBoard</Link></button> */}
             <div className="container">
-                <h3 className="text-center">Journal Entry</h3>
+                <h3 className="text-center">Journal Entry - March 31</h3>
                 <form className="container1" onSubmit={createEntry}>
                     {errors.map((err, index) => <p key={index}>{err}</p>)}
                     <div className="left fs-4">

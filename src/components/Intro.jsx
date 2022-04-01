@@ -16,7 +16,7 @@ const Intro = (props) => {
                     <div className="type3">All in One</div>
                 </div>
                 <br />
-                <div className="intro4"><div className="type4">Share your Secrets now..!!!</div></div>
+                <div className="intro4"><div className="type4">Securely stored</div></div>
             </h1>
         </div >
     )

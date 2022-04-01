@@ -1,12 +1,13 @@
 import React from 'react'
 import './css/calendarexample.css'
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export const CalendarExample = () => {
     return (
 
 
         <div className='example-calendar-container '>
+
             <div className='example-row'>
                 <h2 className="march">March 2022</h2>
                 <div className='example-arrows-div'>
@@ -15,7 +16,7 @@ export const CalendarExample = () => {
                 </div>
             </div>
             <div className='example-header3'>
-                <div className='example-header2'><h4 className="weeks">Sun /</h4></div>
+                <div className='example-header2'><h4 className="weeks">Sun</h4></div>
                 <div className='example-header2'><h4 className="weeks">Mon</h4></div>
                 <div className='example-header2'><h4 className="weeks">Tue</h4></div>
                 <div className='example-header2'><h4 className="weeks">Wed</h4></div>
@@ -143,6 +144,7 @@ export const CalendarExample = () => {
                 <div className='example-calendar-day'><h6 className="dayNum"></h6></div>
             </div>
         </div>
+
 
     )
 }

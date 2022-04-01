@@ -12,45 +12,47 @@ import Update from './components/Update';
 import Navbar from './components/Navbar';
 import CreateDesign from './components/CreateDesign';
 import Video from './components/Video'
+import Cursor from './components/Cursor';
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <Navbar />
-        <Switch>
-          <Route exact path="/calendar/entry/update/:id">
-            <Update />
-          </Route>
-          <Route exact path="/calendar/entry/:id">
-            <Link to="/">Home</Link>
-            <ViewOne />
-          </Route>
-          <Route exact path='/calendar'>
-            <Calendar />
-          </Route>
-          <Route exact path="/calendar/entry">
-            <ContentForm />
-          </Route>
-          <Route exact path='/contact'>
-            <ContactForm />
-          </Route>
-          <Route exact path='/'>
-            <Intro />
-            <Cover />
-            <CalendarExample />
-            <CreateDesign/>
-          </Route>
 
-          {/* <Route exact path = '/view/calendar'>
-           
-          </Route> */}
-        </Switch>
-        <Video />
-        <Mountain />
-      </div>
+    <div className="App">
+      <Cursor/>
+      <Navbar />
 
-    </>
+      <Switch>
+        <Route exact path="/calendar/entry/update/:id">
+          <Update />
+        </Route>
+        <Route exact path="/calendar/entry/:id">
+          <ViewOne />
+        </Route>
+        <Route exact path='/calendar'>
+          <Calendar />
+        </Route>
+        <Route exact path="/create/march/31">
+          <ContentForm />
+        </Route>
+        <Route exact path="/calendar/entry">
+          <ContentForm />
+        </Route>
+        <Route exact path='/contact'>
+          <ContactForm />
+        </Route>
+        <Route exact path='/'>
+          <Intro />
+          <Cover />
+          <CalendarExample />
+          <CreateDesign />
+        </Route>
+      </Switch>
+
+      <Video />
+      <Mountain />
+    </div>
+
+
   );
 }
 

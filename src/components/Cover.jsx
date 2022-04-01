@@ -21,7 +21,7 @@ const Cover = (props) => {
                     ]}
                 />
                 <div className="text1">
-                    <span className="planner">Paper Secrets</span>
+                    <span className="planner">Personal Calendar</span>
                 </div>
 
 

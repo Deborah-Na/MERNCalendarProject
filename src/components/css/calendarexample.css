@@ -7,12 +7,14 @@
     flex-wrap: wrap;
     margin-top: 200px;
     /* margin-left: 50px; */
-    background-image: url("https://images.pexels.com/photos/1765033/pexels-photo-1765033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* background-image: url("https://images.pexels.com/photos/1765033/pexels-photo-1765033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
      /* background-image: url("https://images.pexels.com/photos/7054754/pexels-photo-7054754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
 
     /* background-image: url("https://images.pexels.com/photos/6193748/pexels-photo-6193748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
-    /* background-image: url("https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-image: url("https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     /* background-color: rgb(43,214,180); */
+    /* background-image: url("https://images.pexels.com/photos/6978772/pexels-photo-6978772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-size: contain;
 }
 
 .example-calendar-day {
@@ -31,7 +33,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    color: black;
 }
 
 .example-header3 {
@@ -77,7 +79,7 @@
 }
 
 .weeks, .dayNum{
-    color: white;
+    color: black;
 }
 
 

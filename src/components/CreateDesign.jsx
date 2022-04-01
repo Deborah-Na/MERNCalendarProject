@@ -12,10 +12,10 @@ const CreateDesign = (props) => {
             <div className='rightside'>
                 <h3>Create your first entry!</h3>
                 <ul className="list">
-                    <li>click on calendar</li>
+                    <li>click on calendar on the navbar</li>
                     <li>click on any day</li>
-                    <li>start typing</li>
-                    <li>click submit</li>
+                    <li>fill out the form</li>
+                    <li>click create!</li>
                 </ul>
                 <img className='yellow_clock' src={require("../images/alarm_clock.png")} />
                 {/* <img className='yellow_clock' src={require("../images/circleZ.png")} /> */}

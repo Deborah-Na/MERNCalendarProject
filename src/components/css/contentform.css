@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -10,19 +10,19 @@
     padding: 15px;
 } */
 
-.container1{
+.container1 {
     position: relative;
     display: flex;
     flex-direction: row;
     height: 600px;
-    margin-top: 20px; 
+    margin-top: 20px;
     padding: 20px;
     /* opacity: .2; */
     /* background-color: pink; */
     background-image: url('https://images.pexels.com/photos/5412292/pexels-photo-5412292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }
 
-.left{
+.left {
     width: 400px;
     height: 500px;
     /* border: dotted black; */
@@ -31,7 +31,7 @@
     font-family: 'Indie Flower', cursive;
 }
 
-.right{
+.right {
     width: 400px;
     height: 500px;
     /* border: dotted black; */
@@ -46,16 +46,16 @@ h3 {
     margin-top: 100px;
     font-weight: bold;
     color: white;
-    
+
 }
 
-.button{
+.button {
     margin-top: 30px;
-    -webkit-appearance: none;  
-    background: linear-gradient(to right,rgb(171,59,97) 0%,rgb(174,209,115) 50%,rgb(36,37,130)100%);
+    -webkit-appearance: none;
+    background: linear-gradient(to right, rgb(171, 59, 97) 0%, rgb(174, 209, 115) 50%, rgb(36, 37, 130) 100%);
     background-size: 500%;
     border: none;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
     color: white;
     cursor: pointer;
     font: 20pt 'Bubblegum Sans', cursive;
@@ -66,8 +66,9 @@ h3 {
     -webkit-tap-highlight-color: transparent;
     user-select: none;
     width: 200px;
-    
+
 }
+
 button:hover {
     animation-name: gradient;
     -webkit-animation-name: gradient;
@@ -77,30 +78,16 @@ button:hover {
     -webkit-animation-iteration-count: 1;
     animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
-}  
-@keyframes gradient{
+}
+
+@keyframes gradient {
     0% {
-    background-position: 0% 50%
-}
-    100%{
+        background-position: 0% 50%
+    }
 
-    background-position: 100%;
-}
-}
+    100% {
 
-.postnote{
-    width: 200px;
-    height: 200px;
-    position: relative;
-    /* left: 522px; */
-    top: 350px;
-    right: 300px;
-    /* left: 300px; */
-}
-
-.love{
-    position: absolute;
-    top: 370px;
-    left: 522px;
+        background-position: 100%;
+    }
 }
 

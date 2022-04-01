@@ -212,6 +212,7 @@ function Calendar(props) {
     return (
         
             <div className="calendar-container" >
+                <h3>Click on a day to create your first entry!</h3>
                 <table className="calendar">
                     <thead>
                         <tr className="calendar-header">
