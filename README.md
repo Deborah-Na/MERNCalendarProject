@@ -4,6 +4,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Introduction:
+
+Welcome to our Calendar Journal called "Paper Secrets". My collaborator and I made a calendar where one can add a journal entry for that specific date. Currently, only the frontend of the project has been revealed with connecting to the backend coming soon. 
+
+Usage:
+
+In order to start the calendar journal running, do: 
+
+npm install
+
+Dependencies:
+
+moment,
+react-animated-cursor,
+react-router-dom,
+react-scroll-parallax 
+
 In the project directory, you can run:
 
 ### `npm start`
