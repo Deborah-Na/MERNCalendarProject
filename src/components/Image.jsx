@@ -3,6 +3,8 @@ import React, { Fragment, useEffect, useState } from "react";
 import "./image.modules.css";
 import { createApi } from "unsplash-js";
 
+// const PHOTOS_PATH_PREFIX = '/photos';
+
 const api = createApi({
     // Don't forget to set your access token here!
     // See https://unsplash.com/developers
@@ -78,3 +80,31 @@ ReactDOM.render(<Home />, document.getElementById("root"));
 
 
 export default Image
+
+// export const getRandom = (() => {
+//     const getPathname = () => `${PHOTOS_PATH_PREFIX}/random`;
+//     return makeEndpoint({
+//       getPathname,
+//       handleRequest: createRequestHandler(
+//         ({ collectionIds, contentFilter, topicIds, ...queryParams }: RandomParams = {}) => ({
+//           pathname: getPathname(),
+//           query: compactDefined({
+//             ...queryParams,
+//             content_filter: contentFilter,
+//             ...Query.getCollections(collectionIds),
+//             ...Query.getTopics(topicIds),
+//           }),
+//           headers: {
+//             /**
+//              * Avoid response caching
+//              */
+//             'cache-control': 'no-cache',
+//           },
+//         }),
+//       ),
+//       handleResponse: castResponse<
+//         // An array when the `count` query parameter is used.
+//         Photo.Random | Photo.Random[]
+//       >(),
+//     });
+//   })();
