@@ -21,6 +21,12 @@ react-animated-cursor,
 react-router-dom,
 react-scroll-parallax 
 
+
+Demo here: ![Cover](https://user-images.githubusercontent.com/97312658/161329354-3269e592-b546-4dce-bde8-df8465e82b0e.png)
+
+
+https://youtu.be/OPitfv3Jq6Y
+
 In the project directory, you can run:
 
 ### `npm start`
